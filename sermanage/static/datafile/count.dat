@@ -1,0 +1,15 @@
+{'id':'1','uid':'1001','name':'zhao','pass':'zhao','role':'1'}
+{'id':'2','uid':'1002','name':'zhao1','pass':'zhao','role':'1'}
+{'id':'3','uid':'1003','name':'zhao2','pass':'zhao','role':'1'}
+{'id':'4','uid':'1004','name':'zhao3','pass':'zhao','role':'1'}
+{'id':'5','uid':'1005','name':'zhao4','pass':'zhao','role':'1'}
+{'id':'6','uid':'2001','name':'zhao5','pass':'zhao','role':'2'}
+{'id':'7','uid':'2002','name':'zhao6','pass':'zhao','role':'2'}
+{'id':'8','uid':'2003','name':'zhao7','pass':'zhao','role':'2'}
+{'id':'9','uid':'2004','name':'zhao8','pass':'zhao','role':'2'}
+{'id':'10','uid':'2005','name':'zhao9','pass':'zhao','role':'2'}
+{'id':'11','uid':'3001','name':'zhao10','pass':'zhao','role':'3'}
+{'id':'12','uid':'3002','name':'zhao11','pass':'zhao','role':'3'}
+{'id':'13','uid':'3003','name':'zhao12','pass':'zhao','role':'3'}
+{'id':'14','uid':'3004','name':'zhao13','pass':'zhao','role':'3'}
+{'id':'15','uid':'3005','name':'zhao14','pass':'zhao','role':'3'}

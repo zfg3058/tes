@@ -1,0 +1,148 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+-->
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+	  <tr>
+	    <td height="30"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td width="15" height="30"><img src="/static/imgs/tabimg/tab_03.gif" width="15" height="30" /></td>
+	        <td background="/static/imgs/tabimg/tab_05.gif">
+	        	<img src="/static/imgs/tabimg/311.gif" width="16" height="16" /> 
+	        	<span class="STYLE4">服务器主机列表</span>
+	        </td>
+	        <td width="14"><img src="/static/imgs/tabimg/tab_07.gif" width="14" height="30" /></td>
+	      </tr>
+	    </table></td>
+	  </tr>
+	  <tr>
+	    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td width="9" background="/static/imgs/tabimg/tab_12.gif">&nbsp;</td>
+	        <td bgcolor="e5f1d6"><table width="99%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CECECE">
+	          <tr>
+				{% for i in items %}
+		          	<td width="auto" height="26" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1">
+		            	<div align="center" class="STYLE2 STYLE1">{{i}}</div>
+		            </td>
+				{% endfor %}
+	          <!-- item
+	            <td width="6%" height="26" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2 STYLE1">选择</div></td>
+	            <td width="8%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2 STYLE1">序号</div></td>
+	            <td width="24%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2 STYLE1">运行机器ip地址</div></td>
+	            <td width="10%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2 STYLE1">机器名</div></td>
+	            <td width="14%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2 STYLE1">节点类型</div></td>
+	            <td width="24%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2">服务器进程配置</div></td>
+	            <td width="7%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2">编辑</div></td>
+	            <td width="7%" height="18" background="/static/imgs/tabimg/tab_14.gif" class="STYLE1"><div align="center" class="STYLE2">删除</div></td>
+	          -->
+	          </tr>
+	          {% for dicts in dic%}
+		          {% if dicts %}
+		        	<tr>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE1 STYLE1">{{dicts.statu}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.ip}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.cpu}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.ram}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.YP}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.TYPE}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.kehu}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.bgtime}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.edtime}}</div></td>
+		            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">{{dicts.tjgd}}</div></td>
+		          </tr>
+		          {% endif %}
+	          {% endfor %}
+	          <!-- content
+	          
+	          <tr>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE1">
+	              <input name="checkbox14" type="checkbox" class="STYLE2" value="checkbox" />
+	            </div></td>
+	            <td height="18" bgcolor="#FFFFFF" class="STYLE2"><div align="center" class="STYLE2 STYLE1">A0012</div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">192.168.0.124</div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">wtz_fh</div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center" class="STYLE2 STYLE1">DBserver</div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center"><a href="#">服务器进程配置</a></div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center"><span class="STYLE2"><img src="/static/imgs/tabimg/037.gif" width="9" height="9" /></span><span class="STYLE1"> [</span><a href="#">编辑</a><span class="STYLE1">]</span></div></td>
+	            <td height="18" bgcolor="#FFFFFF"><div align="center"><span class="STYLE2"><img src="/static/imgs/tabimg/010.gif" width="9" height="9" /></span><span class="STYLE2"> </span><span class="STYLE1">[</span><a href="#">删除</a><span class="STYLE1">]</span></div></td>
+	          </tr>
+	           -->
+	        
+	        </table></td>
+	        <td width="9" background="/static/imgs/tabimg/tab_16.gif">&nbsp;</td>
+	      </tr>
+	      
+	      
+	    </table></td>
+	  </tr>
+  <tr>
+    <td height="29"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="15" height="29"><img src="/static/imgs/tabimg/tab_20.gif" width="15" height="29" /></td>
+        <td background="/static/imgs/tabimg/tab_21.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="40%">
+            	<div align="left">
+            		<span class="STYLE1">共120条纪录，当前第1/10页，每页10条纪录</span>
+            	</div>
+            </td>
+            <td width="60%" class="STYLE1">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="14">
+        	<img src="/static/imgs/tabimg/tab_22.gif" width="14" height="29" />
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+  <!--  
+  <tr>
+    <td height="29">
+	    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td width="15" height="29"><img src="/static/imgs/tabimg/tab_20.gif" width="15" height="29" /></td>
+	        <td background="/static/imgs/tabimg/tab_21.gif">
+		        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		          <tr>
+		            <td width="21%" height="29"><img src="/static/imgs/tabimg/q.gif" width="40" height="19" /> 
+		            	<img src="/static/imgs/tabimg/x.gif" width="40" height="19" /> 
+		            	<img src="/static/imgs/tabimg/s.gif" width="40" height="19" />
+		            </td>
+		            <td width="79%" valign="top" class="STYLE1">
+			            <div align="right">
+			              <table width="352" height="20" border="0" cellpadding="0" cellspacing="0">
+			                <tr>
+			                  <td width="62" height="22" valign="middle"><div align="right"><img src="/static/imgs/tabimg/first.gif" width="46" height="20" /></div></td>
+			                  <td width="50" height="22" valign="middle"><div align="right"><img src="/static/imgs/tabimg/back.gif" width="46" height="20" /></div></td>
+			                  <td width="54" height="22" valign="middle"><div align="right"><img src="/static/imgs/tabimg/next.gif" width="46" height="20" /></div></td>
+			                  <td width="49" height="22" valign="middle"><div align="right"><img src="/static/imgs/tabimg/last.gif" width="46" height="20" /></div></td>
+			                  <td width="59" height="22" valign="middle"><div align="right">转到第</div></td>
+			                  <td width="25" height="22" valign="middle"><span class="STYLE7">
+			                    <input name="textfield" type="text" class="STYLE1" style="height:10px; width:25px;" size="5" />
+			                  </span></td>
+			                  <td width="23" height="22" valign="middle">页</td>
+			                  <td width="30" height="22" valign="middle"><img src="/static/imgs/tabimg/g_page.gif" width="14" height="14" /></td>
+			                </tr>
+			              </table>
+			            </div>
+		            </td>
+		          </tr>
+		        </table>
+	        </td>
+	        <td width="14"><img src="imgs/tabimg/tab_22.gif" width="14" height="29" /></td>
+	      </tr>
+	    </table>
+    </td>
+  </tr>
+  -->
+</table>
+<!-- 
+</body>
+</html>
+ -->
